@@ -16,7 +16,7 @@ export const Pricing = () => {
             height={255}
             alt="Sphere"
           ></img>
-          <div className="absolute top-1/2 left-1/2 w-[60rem] -translate-x-1/2 -translate-y-1/2 pointer-events-none">
+          <div id="pricing" className="absolute top-1/2 left-1/2 w-[60rem] -translate-x-1/2 -translate-y-1/2 pointer-events-none">
             <img
               src={stars}
               className="w-full"
@@ -26,12 +26,12 @@ export const Pricing = () => {
             ></img>
           </div>
         </div>
-        <Heading
+        <Heading 
           tag="GET STARTED WITH BRAINWAVE"
           title="Pay once, use forever"
         ></Heading>
 
-        <div className="relative">
+        <div  className="relative">
           <PricingList></PricingList>
           <LeftLine></LeftLine>
           <RightLine></RightLine>
